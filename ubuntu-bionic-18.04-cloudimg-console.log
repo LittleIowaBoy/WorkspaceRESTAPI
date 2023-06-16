@@ -1,0 +1,4 @@
+[76264.490269] INFO: rcu_sched detected stalls on CPUs/tasks:
+[76264.500238] 	1-...!: (0 ticks this GP) idle=440/0/0 softirq=57101/57101 fqs=0 
+[76264.516456] 	(detected by 0, t=18624 jiffies, g=28312, c=28311, q=227)
+[76264.532275] rcu_sched kthread starved for 18624 jiffies! g28312 c28311 f0x0 RCU_GP_WAIT_FQS(3) ->state=0x402 ->cpu=1
