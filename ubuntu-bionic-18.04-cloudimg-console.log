@@ -2,3 +2,11 @@
 [76264.500238] 	1-...!: (0 ticks this GP) idle=440/0/0 softirq=57101/57101 fqs=0 
 [76264.516456] 	(detected by 0, t=18624 jiffies, g=28312, c=28311, q=227)
 [76264.532275] rcu_sched kthread starved for 18624 jiffies! g28312 c28311 f0x0 RCU_GP_WAIT_FQS(3) ->state=0x402 ->cpu=1
+[79924.547534] INFO: rcu_sched self-detected stall on CPU
+[79924.548423] INFO: rcu_sched self-detected stall on CPU
+[79924.559668] 	0-...!: (1 ticks this GP) idle=bfa/1/0 softirq=535978/535978 fqs=0 
+[79924.599046] 	 (t=83601 jiffies g=47586 c=47585 q=66)
+[79924.599911] 	1-...!: (1 ticks this GP) idle=ef6/1/0 softirq=77854/77854 fqs=0 
+[79924.615058] rcu_sched kthread starved for 83601 jiffies! g47586 c47585 f0x0 RCU_GP_WAIT_FQS(3) ->state=0x402 ->cpu=1
+[79924.688577] 	 (t=83601 jiffies g=47586 c=47585 q=66)
+[79924.710118] rcu_sched kthread starved for 83601 jiffies! g47586 c47585 f0x0 RCU_GP_WAIT_FQS(3) ->state=0x200 ->cpu=1
