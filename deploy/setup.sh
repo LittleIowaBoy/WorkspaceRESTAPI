@@ -5,7 +5,7 @@ set -e
 
 PROJECT_GIT_URL='https://github.com/LittleIowaBoy/WorkspaceRESTAPI.git'
 
-PROJECT_BASE_PATH='/usr/local/apps/profiles-rest-api'
+PROJECT_BASE_PATH='/usr/local/apps/Profiles-rest-api'
 
 # Set Ubuntu Language
 locale-gen en_GB.UTF-8
