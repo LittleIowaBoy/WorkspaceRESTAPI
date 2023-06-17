@@ -25,7 +25,6 @@ $PROJECT_BASE_PATH/env/bin/pip install -r $PROJECT_BASE_PATH/requirements.txt uw
 
 # Run migrations
 $PROJECT_BASE_PATH/env/bin/python $PROJECT_BASE_PATH/manage.py migrate
-$PROJECT_BASE_PATH/env/bin/python manage.py collectstatic --noinput
 
 # Setup Supervisor to run our uwsgi process.
 cp $PROJECT_BASE_PATH/deploy/supervisor_profiles_api.conf /etc/supervisor/conf.d/profiles_api.conf
